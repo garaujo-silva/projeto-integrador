@@ -1,17 +1,18 @@
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-image: url(./predio.jpg)
+   
+
+
     
 }
 body{
-    background-size: cover;
-    background-position: center;
+   background-color: #070b4d;
 }
 
 section.formulario {
@@ -53,7 +54,7 @@ form .submit {
 
 form .submit input {
     width: 120px;
-    background-color: #ebe4e4;
+    background-color: #f2f5ef;
     color: #000;
     font-weight: 700;
     cursor: pointer;
@@ -62,7 +63,7 @@ form .submit input {
 
 .titulo {
     text-align: center;
-    color: #eee5e5;
+    color: #07916e;
     cursor: pointer;
 }
 
@@ -76,7 +77,7 @@ form .login {
 
 button {
     background-color: #696969;
-    color: #fff;
+    color: #07916e;
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 15px;
@@ -84,8 +85,7 @@ button {
     cursor:pointer;
     transition: .2s;
     margin: 0 auto;
-    font-family: 'Times New Roman', Times, serif;
-  }
+    font-family:Arial, Helvetica, sans-serif;
   
   button:hover {
     background-color: #857777;
